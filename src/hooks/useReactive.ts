@@ -1,0 +1,3 @@
+
+const proxyProps = new WeakMap();
+

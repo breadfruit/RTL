@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "strict": true,
+    "target": "ES2017",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/components/*": ["src/components/*"],
+      "@/assets/*": ["src/assets/*"],
+      "@/constants/*": ["src/constants/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/apis/*": ["src/apis/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/types/*": ["src/types/*"],
+      "@/hooks/*": ["src/hooks/*"],
+      "@/hoc/*": ["src/hoc/*"],
+      "@/routes/*": ["src/routes/*"],
+      "@/layout/*": ["src/layout/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "typeRoots": [
+    "node_modules/@types",
+    "src/global.d.ts",
+    "src/declarations.d.ts",
+    "public/js/shims.d.ts"
+  ],
+  "exclude": ["node_modules", "dist", "build"]
+}
