@@ -5,7 +5,3 @@ export interface CopyToClipboardState {
     error?: Error;
 }
 
-const useCopyToClipboard = (): [CopyToClipboardState, (value: string) => void] => {
-    const isMounted = useMountedState()
-   
-}

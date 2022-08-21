@@ -34,5 +34,7 @@
     "src/declarations.d.ts",
     "public/js/shims.d.ts"
   ],
+  // 添加测试断言
+  // "include": ["src/**/*", "./src/setupTests.ts"],
   "exclude": ["node_modules", "dist", "build"]
 }
